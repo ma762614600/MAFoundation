@@ -13,7 +13,7 @@
 		AB58E7001EF1434D0005A046 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB58E6FE1EF1434D0005A046 /* Main.storyboard */; };
 		AB58E7021EF1434D0005A046 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB58E7011EF1434D0005A046 /* Assets.xcassets */; };
 		AB58E7051EF1434D0005A046 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB58E7031EF1434D0005A046 /* LaunchScreen.storyboard */; };
-		AB58E70F1EF144550005A046 /* SayHello.m in Sources */ = {isa = PBXBuildFile; fileRef = AB58E70E1EF144550005A046 /* SayHello.m */; };
+		AB9A91B21EF14E01001A3C90 /* SayHello.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9A91B11EF14E01001A3C90 /* SayHello.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +27,8 @@
 		AB58E7011EF1434D0005A046 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB58E7041EF1434D0005A046 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB58E7061EF1434D0005A046 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AB58E70D1EF144550005A046 /* SayHello.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SayHello.h; sourceTree = "<group>"; };
-		AB58E70E1EF144550005A046 /* SayHello.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SayHello.m; sourceTree = "<group>"; };
+		AB9A91B01EF14E01001A3C90 /* SayHello.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SayHello.h; sourceTree = "<group>"; };
+		AB9A91B11EF14E01001A3C90 /* SayHello.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SayHello.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,7 +45,7 @@
 		AB58E6E91EF1434D0005A046 = {
 			isa = PBXGroup;
 			children = (
-				AB58E70C1EF1441D0005A046 /* MAFoundation */,
+				AB9A91AF1EF14E01001A3C90 /* MAFoundation */,
 				AB58E6F41EF1434D0005A046 /* MAFoundationDemo */,
 				AB58E6F31EF1434D0005A046 /* Products */,
 			);
@@ -83,13 +83,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		AB58E70C1EF1441D0005A046 /* MAFoundation */ = {
+		AB9A91AF1EF14E01001A3C90 /* MAFoundation */ = {
 			isa = PBXGroup;
 			children = (
-				AB58E70D1EF144550005A046 /* SayHello.h */,
-				AB58E70E1EF144550005A046 /* SayHello.m */,
+				AB9A91B01EF14E01001A3C90 /* SayHello.h */,
+				AB9A91B11EF14E01001A3C90 /* SayHello.m */,
 			);
-			path = MAFoundation;
+			name = MAFoundation;
+			path = ../MAFoundation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,7 +166,7 @@
 			files = (
 				AB58E6FD1EF1434D0005A046 /* ViewController.m in Sources */,
 				AB58E6FA1EF1434D0005A046 /* AppDelegate.m in Sources */,
-				AB58E70F1EF144550005A046 /* SayHello.m in Sources */,
+				AB9A91B21EF14E01001A3C90 /* SayHello.m in Sources */,
 				AB58E6F71EF1434D0005A046 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -323,6 +324,7 @@
 				AB58E70B1EF1434D0005A046 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
